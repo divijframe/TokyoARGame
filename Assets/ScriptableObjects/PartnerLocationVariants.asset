@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b30e8b09dd5c9d4493a61e1a1822093, type: 3}
+  m_Name: PartnerLocationVariants
+  m_EditorClassIdentifier: 
+  partnerLocations:
+  - id: Seven-Eleven
+    name: Seven-Eleven
+    description: Some fun Seven-Eleven description
+    logo: {fileID: 2800000, guid: aeffca792ce22ab4390485c74b7a1078, type: 3}
+    deals:
+    - title: Beef Rice Chicken Nanban
+      icon: {fileID: 2800000, guid: 16a2d8df63f11894ea524a23588e31e1, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Crispy Lettuce Sandwich
+      icon: {fileID: 2800000, guid: 71168304483ebc84a89b341028903404, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Hand Rolled Rice Balls
+      icon: {fileID: 2800000, guid: 2a831c87057d28f40b2f357a48712b15, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Aoyama Nakayama
+    name: Aoyama Nakayama
+    description: Some fun Aoyama Nakayama description
+    logo: {fileID: 2800000, guid: b08594611a842384fa4fc1c425556a07, type: 3}
+    deals:
+    - title: Hot Deal
+      icon: {fileID: 2800000, guid: b08594611a842384fa4fc1c425556a07, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: NARISAWA
+    name: NARISAWA
+    description: Some fun NARISAWA description
+    logo: {fileID: 2800000, guid: c09cc57ec8c418941b7afc5f45246296, type: 3}
+    deals:
+    - title: Fresh Cake
+      icon: {fileID: 2800000, guid: 8f3b948ea7d9311449465d08b0d37861, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Horsdoeuvres For 2
+      icon: {fileID: 2800000, guid: 45cb597cada3a7148a5ae7e571e55eee, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Takeout For 2
+      icon: {fileID: 2800000, guid: 35771dcd913db6548b1f59ab97dd2fb8, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Spicy Bistro Taprobane
+    name: Spicy Bistro Taprobane
+    description: Some fun Spicy Bistro Taprobane description
+    logo: {fileID: 2800000, guid: ee83cb03e13488d4cad5be4cc567c8a6, type: 3}
+    deals:
+    - title: Chicken Curry
+      icon: {fileID: 2800000, guid: e849cf42ca475764d8edde605559456f, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Kottu
+      icon: {fileID: 2800000, guid: 2afe8ffab611c8a4394f4d1b326e18cb, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Orchid
+      icon: {fileID: 2800000, guid: 6025f1cae5ef47047a30558a576fb2a7, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Bic Camera
+    name: Bic Camera
+    description: Some fun Bic Camera description
+    logo: {fileID: 2800000, guid: 69e21d5a4b56e53439421b0e984c3668, type: 3}
+    deals:
+    - title: Laptop
+      icon: {fileID: 2800000, guid: 214ef624b6cd18740952522987c34dcd, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Refrigerator
+      icon: {fileID: 2800000, guid: 8fb921219ae19024d938bbd2ec6f9a1c, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Showerhead
+      icon: {fileID: 2800000, guid: b558002c4de49b147b9bd4c4203914a6, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Switch Lite
+      icon: {fileID: 2800000, guid: d2a34504f4db0434586dbc1f22d7f48c, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Wireless Earphones
+      icon: {fileID: 2800000, guid: e1e0008b6a593a04b837c534f7728cf0, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Family Mart
+    name: Family Mart
+    description: Some fun Family Mart description
+    logo: {fileID: 2800000, guid: caac0c2097796a547a2b9e345ff20237, type: 3}
+    deals:
+    - title: An Bread
+      icon: {fileID: 2800000, guid: 76b9e51e197f2c5429d4978eef70dff5, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Hamukatsu Sandwich
+      icon: {fileID: 2800000, guid: 52b7908872b8cf84d835ceffbec5627b, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Potato Chips
+      icon: {fileID: 2800000, guid: d7168110ad7c88443aec764501584879, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: ABC Mart
+    name: ABC Mart
+    description: Some fun ABC Mart description
+    logo: {fileID: 2800000, guid: bc130a4119a60254d8acc9fc465b8f2e, type: 3}
+    deals:
+    - title: Sneakers
+      icon: {fileID: 2800000, guid: 7d15b8c6c2bebe6418ad7e07ae4b07b1, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Sneakers
+      icon: {fileID: 2800000, guid: 67b9ec174a2b4894fbd0ef72ba618e68, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Sneakers
+      icon: {fileID: 2800000, guid: 72f0504985f76f84b8afca986abad568, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: UNIQLO
+    name: UNIQLO
+    description: Some fun UNIQLO description
+    logo: {fileID: 2800000, guid: 786fcb8e285577c4c8c2862e0ffd10f8, type: 3}
+    deals:
+    - title: Girls Dress
+      icon: {fileID: 2800000, guid: cec57ed0043ae9d4fba881cac3aded16, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: T-Shirt
+      icon: {fileID: 2800000, guid: 25be74099af4fae4a9e9a83bc05e52b3, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: T-Shirt
+      icon: {fileID: 2800000, guid: 7c94576a8e5cfed44b67cd1c9f0b6232, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Starbucks
+    name: Starbucks
+    description: Some fun Starbucks description
+    logo: {fileID: 2800000, guid: 0b5821f0676ad8e4ea1fa1f13aa5b8e5, type: 3}
+    deals:
+    - title: Peach Raspberry Tea
+      icon: {fileID: 2800000, guid: aa8bdd6c7b105314f8f2bfba90fce1c5, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Tiramisu Frappuccino
+      icon: {fileID: 2800000, guid: ca28b733ac32bcd4da684fa2b9b03ab2, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Tiramisu Tea
+      icon: {fileID: 2800000, guid: 136f3778111c45745b60daaa5d1ca7da, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: APA Hotel
+    name: APA Hotel
+    description: Some fun APA Hotel description
+    logo: {fileID: 2800000, guid: 0efcfdbdc02773f498e3223ddc011d88, type: 3}
+    deals:
+    - title: Hot Deal
+      icon: {fileID: 2800000, guid: 0efcfdbdc02773f498e3223ddc011d88, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Natural LAWSON
+    name: Natural LAWSON
+    description: Some fun Natural LAWSON description
+    logo: {fileID: 2800000, guid: eacb52a1708d97e4dbe7fbaae24bb4bd, type: 3}
+    deals:
+    - title: Chazuke
+      icon: {fileID: 2800000, guid: 4cb1f72031eaff04dacb8b5f302f9f0a, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Cheese Dak Galbi
+      icon: {fileID: 2800000, guid: ca8256bd6809eea48b30acbdbab01961, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Chicken Nanban
+      icon: {fileID: 2800000, guid: b394865b8a12dde46a0441afd82f8195, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: McDonald's
+    name: McDonald's
+    description: Some fun McDonald's description
+    logo: {fileID: 2800000, guid: a0f55019b83fe264f8523e5964f6b0f4, type: 3}
+    deals:
+    - title: Samurai Mac-Bacon
+      icon: {fileID: 2800000, guid: 6e686b3cb19f8a4489d36b1db441b2fb, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Chicken McNuggets
+      icon: {fileID: 2800000, guid: 080065b89a2b1d641907c73a042a70be, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Samurai Mac-Double
+      icon: {fileID: 2800000, guid: b6668a79ac9674449b3aee4b443d6a7d, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: KFC
+    name: KFC
+    description: Some fun KFC description
+    logo: {fileID: 2800000, guid: 6bc1599ba4225a94b94e3cbd30428709, type: 3}
+    deals:
+    - title: Bacon Sandwich
+      icon: {fileID: 2800000, guid: b3a9aa8c9ef93b04c8e558545addd6f4, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Crispy Chicken
+      icon: {fileID: 2800000, guid: e7d04018d6d9fa846b40c2cd5af955df, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: GW Pack B
+      icon: {fileID: 2800000, guid: 32fa559e11d7baf40ba56accbf7a9ef3, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Shibuya 109
+    name: Shibuya 109
+    description: Some fun Shibuya 109 description
+    logo: {fileID: 2800000, guid: e6c263a44c1cc1c4b930e6dd7e0c3f0e, type: 3}
+    deals:
+    - title: Agarism UV Stick
+      icon: {fileID: 2800000, guid: 11e6bcefdcb2f4b41937fb30e4dc5e5b, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Doggie Tunkalon
+      icon: {fileID: 2800000, guid: 58c7249d48ca0e6419a56f2570842e00, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Doggie Tunkalon
+      icon: {fileID: 2800000, guid: aeff964c8a9882741a01adfa33d90bd5, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Zara
+    name: ZARA
+    description: Some fun ZARA description
+    logo: {fileID: 2800000, guid: 10f9f6404696c3e4e87cf7a61c7fc0a9, type: 3}
+    deals:
+    - title: Hoodie
+      icon: {fileID: 2800000, guid: 69170f5702448f14da680da87c270e35, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Puffie
+      icon: {fileID: 2800000, guid: ff8d54081f19da349908ab1d6c083213, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Sandals
+      icon: {fileID: 2800000, guid: 2d8f0e8b747334e419fb6aa2f63aa713, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Don Quijote
+    name: Don Quijote
+    description: Some fun Don Quijote description
+    logo: {fileID: 2800000, guid: 4f9d194f8df7ab747b33b6651881f387, type: 3}
+    deals:
+    - title: EV Bicycle
+      icon: {fileID: 2800000, guid: 5731fba2d05457b4cbc2126daf196e1c, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Mini Pack Butter
+      icon: {fileID: 2800000, guid: 963adf19ab64f834fb8c1031a587870d, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Rice Cooker
+      icon: {fileID: 2800000, guid: 99faace269a9d314caea90295ae46a5c, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Roppongi Hills
+    name: Roppongi Hills
+    description: Some fun Roppongi Hills description
+    logo: {fileID: 2800000, guid: de6655d034ce38d4ea920b068deb4fd2, type: 3}
+    deals:
+    - title: As Classic Dinner
+      icon: {fileID: 2800000, guid: db7c49bb1f114ee4ab41eafad05d299f, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: BBQ Yakiniku
+      icon: {fileID: 2800000, guid: 391ee99a4d7222f4e8731e374a56fd63, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Egg Celent
+      icon: {fileID: 2800000, guid: 29d2cd047b0652e4a87e4d183443c6fe, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+  - id: Tully's Coffee
+    name: Tully's Coffee
+    description: Some fun Tully's Coffee description
+    logo: {fileID: 2800000, guid: 3eca3c835115f004e9a1a88612f67c28, type: 3}
+    deals:
+    - title: Melon Sworkle
+      icon: {fileID: 2800000, guid: 2566b64ec50179a47918e05294da4696, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Peach Muscat Tea
+      icon: {fileID: 2800000, guid: 800d0f726ab2bff47bd56e05440742d7, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1
+    - title: Teethworkle
+      icon: {fileID: 2800000, guid: 01f0d42c6ee12e14e9b22aef06903022, type: 3}
+      duration: 86400
+      timeRemaining: 86356.95
+      active: 1

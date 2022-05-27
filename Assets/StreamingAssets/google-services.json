@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1049718947288",
+    "firebase_url": "https://tokyomassive-6ab2f-default-rtdb.firebaseio.com",
+    "project_id": "tokyomassive-6ab2f",
+    "storage_bucket": "tokyomassive-6ab2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049718947288:android:5db63f0e5cd404d23b06ad",
+        "android_client_info": {
+          "package_name": "com.brbent.tokyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049718947288-tfct34m9o00brluvqh7tct43h7oip1c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTIsnQ6Q7pURS0jUIDSbL143PLhZBCdmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049718947288-tfct34m9o00brluvqh7tct43h7oip1c9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1049718947288-n5hjoejneu6kcs61rbh8l5ubiqbhai2b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.brbent.tokyo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

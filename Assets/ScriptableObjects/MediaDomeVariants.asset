@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c363831d23b6f4f8d7b541143c33cd, type: 3}
+  m_Name: MediaDomeVariants
+  m_EditorClassIdentifier: 
+  mediaDomes:
+  - id: SKE48
+    contentType: 4
+    iconMaterial: {fileID: 2800000, guid: 0a30cbdbc9f8810429e07ded18d602ec, type: 3}
+    ambientFX: {fileID: 8969991195552258276, guid: 198b38d756c5d0248a49d1fe5ab43205,
+      type: 3}
+    contentImages:
+    - {fileID: 2800000, guid: 4d01551e7ee06d5408a97cbd80d16a7f, type: 3}
+    - {fileID: 2800000, guid: ed5afd7642a8de244b826654ae7d0fe9, type: 3}
+    - {fileID: 2800000, guid: cc8986f4896efce4880eec949697c82d, type: 3}
+    - {fileID: 2800000, guid: 186c2f602679463458f522bb1c00e10d, type: 3}
+    ambientSFX: {fileID: 8300000, guid: 96a455c6687718249b96b1b5ac24f8a1, type: 3}
+  - id: Media Dome 2
+    contentType: 0
+    iconMaterial: {fileID: 2800000, guid: bb3b089625fee92459f56c3d676886c8, type: 3}
+    ambientFX: {fileID: 8969991195552258276, guid: 5e4f84a5129ab044381e65a00826e0f8,
+      type: 3}
+    contentImages:
+    - {fileID: 2800000, guid: e96df87041fd676498b87901831e95c1, type: 3}
+    - {fileID: 2800000, guid: f24af79474a16b24b9677c3219bf418f, type: 3}
+    - {fileID: 2800000, guid: cdda66ec97357cd49a43e1eb029872ad, type: 3}
+    - {fileID: 2800000, guid: 6e18440e1d995384f98177957600e030, type: 3}
+    - {fileID: 2800000, guid: 8e217c144dce1224bac7fe8b4879ea69, type: 3}
+    - {fileID: 2800000, guid: 2bf44f4b234f3924c9581da12c6e057a, type: 3}
+    - {fileID: 2800000, guid: 6ab6bd668d8835b4984268f75f3e400d, type: 3}
+    ambientSFX: {fileID: 8300000, guid: 56d1694a0a09e494bb78006ca659282f, type: 3}
+  - id: BTS
+    contentType: 1
+    iconMaterial: {fileID: 2800000, guid: fb1ccaabc46c06b4d81427994e38a1ec, type: 3}
+    ambientFX: {fileID: 8969991195552258276, guid: ff0b86df6e9705546bfae85dabade842,
+      type: 3}
+    contentImages:
+    - {fileID: 2800000, guid: 3df2e5db0848d984881f4df099161081, type: 3}
+    - {fileID: 2800000, guid: 0cdb9a90563555046baa066bed18bd3e, type: 3}
+    - {fileID: 2800000, guid: 7c1fff89ac66d0347b06ebcd60ce99c3, type: 3}
+    - {fileID: 2800000, guid: da8924cba53a87e4182c21aeabb1fbac, type: 3}
+    - {fileID: 2800000, guid: b8fdb91b8a28d02479f894755d053198, type: 3}
+    ambientSFX: {fileID: 8300000, guid: 816aa0d1c3f57d0489e55b6d2fb20370, type: 3}
+  - id: UnderArmour
+    contentType: 2
+    iconMaterial: {fileID: 2800000, guid: dbce9252a8b1d424a888e404587ba180, type: 3}
+    ambientFX: {fileID: 8969991195552258276, guid: d4049e0148ba6fd4598e5d71d4457bd2,
+      type: 3}
+    contentImages:
+    - {fileID: 2800000, guid: 5c18c144429b1da4da2422f4d0d22ebc, type: 3}
+    - {fileID: 2800000, guid: 327b3d140dd140049a70c77ce40fe1c6, type: 3}
+    - {fileID: 2800000, guid: 3528b0a6c57fedf43aae77525b0fb74d, type: 3}
+    - {fileID: 2800000, guid: 9c8035292f1b2904a8436b812cd5b326, type: 3}
+    - {fileID: 2800000, guid: f058c342adfba5d4f8c6683e795b5402, type: 3}
+    ambientSFX: {fileID: 8300000, guid: 0efd38ccd7b2f2444b564be7738a46d7, type: 3}
+  - id: Media Dome 5
+    contentType: 3
+    iconMaterial: {fileID: 2800000, guid: de2a9da67cce83048b543f966dbc28ed, type: 3}
+    ambientFX: {fileID: 8969991195552258276, guid: d7145c5c01fde7f4a86417f0fe65149f,
+      type: 3}
+    contentImages:
+    - {fileID: 2800000, guid: e96df87041fd676498b87901831e95c1, type: 3}
+    - {fileID: 2800000, guid: f24af79474a16b24b9677c3219bf418f, type: 3}
+    - {fileID: 2800000, guid: cdda66ec97357cd49a43e1eb029872ad, type: 3}
+    - {fileID: 2800000, guid: 6e18440e1d995384f98177957600e030, type: 3}
+    - {fileID: 2800000, guid: 8e217c144dce1224bac7fe8b4879ea69, type: 3}
+    - {fileID: 2800000, guid: 2bf44f4b234f3924c9581da12c6e057a, type: 3}
+    - {fileID: 2800000, guid: 6ab6bd668d8835b4984268f75f3e400d, type: 3}
+    ambientSFX: {fileID: 8300000, guid: 56d1694a0a09e494bb78006ca659282f, type: 3}
+  - id: Media Dome 6
+    contentType: 5
+    iconMaterial: {fileID: 2800000, guid: cee7bf14705b87f4d804f4b4ef6878f6, type: 3}
+    ambientFX: {fileID: 8969991195552258276, guid: fcd3d88ae4db25c4aa743ccd75ce3d9b,
+      type: 3}
+    contentImages:
+    - {fileID: 2800000, guid: e96df87041fd676498b87901831e95c1, type: 3}
+    - {fileID: 2800000, guid: f24af79474a16b24b9677c3219bf418f, type: 3}
+    - {fileID: 2800000, guid: cdda66ec97357cd49a43e1eb029872ad, type: 3}
+    - {fileID: 2800000, guid: 6e18440e1d995384f98177957600e030, type: 3}
+    - {fileID: 2800000, guid: 8e217c144dce1224bac7fe8b4879ea69, type: 3}
+    - {fileID: 2800000, guid: 2bf44f4b234f3924c9581da12c6e057a, type: 3}
+    - {fileID: 2800000, guid: 6ab6bd668d8835b4984268f75f3e400d, type: 3}
+    ambientSFX: {fileID: 8300000, guid: 56d1694a0a09e494bb78006ca659282f, type: 3}

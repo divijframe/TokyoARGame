@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1049718947288-n5hjoejneu6kcs61rbh8l5ubiqbhai2b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1049718947288-n5hjoejneu6kcs61rbh8l5ubiqbhai2b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCwCiCRU0ScRddflCF_-kjIELijHpnmtac</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1049718947288</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.brbent.tokyo</string>
+	<key>PROJECT_ID</key>
+	<string>tokyomassive-6ab2f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tokyomassive-6ab2f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1049718947288:ios:678839c7388c0b8d3b06ad</string>
+	<key>DATABASE_URL</key>
+	<string>https://tokyomassive-6ab2f-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

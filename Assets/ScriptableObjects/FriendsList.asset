@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9fbf3f6cd9dc9440a8db278c2098dd6, type: 3}
+  m_Name: FriendsList
+  m_EditorClassIdentifier: 
+  friends:
+  - id: Friend 1
+    name: James
+    profilePicture: {fileID: 2800000, guid: 805ec20cee61ae04d9a7fcb7cb844940, type: 3}
+  - id: Friend 2
+    name: Chloe
+    profilePicture: {fileID: 2800000, guid: 261e70e20345d014cb20b5a6779e187d, type: 3}
+  - id: Friend 3
+    name: Emma
+    profilePicture: {fileID: 2800000, guid: 9d8e64138271e874eb2b09abc3b8873d, type: 3}
+  - id: Friend 4
+    name: William
+    profilePicture: {fileID: 2800000, guid: 18fa0e7eb0f8e3847960f15115e593d9, type: 3}
+  - id: Friend 5
+    name: Sophia
+    profilePicture: {fileID: 2800000, guid: a17f1a120a5a7864a866d66a77ceb80f, type: 3}
+  - id: Friend 6
+    name: Hannah
+    profilePicture: {fileID: 2800000, guid: 1e3838056e5c07446a03402b4998ef13, type: 3}

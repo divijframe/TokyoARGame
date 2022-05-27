@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ade7ea2a146442b9575619cf724737, type: 3}
+  m_Name: ReplaceFeatureCollectionModifier
+  m_EditorClassIdentifier: 
+  Active: 1
+  features:
+  - Name: TokyoTower
+    active: 1
+    prefab: {fileID: 6796785576259165971, guid: 55073ef30cee7f4499d7550ddb333d20,
+      type: 3}
+    scaleDownWithWorld: 1
+    _prefabLocations:
+    - 35.658596, 139.74557
+    _explicitlyBlockedFeatureIds: []
+  - Name: shibuya_crossing
+    active: 1
+    prefab: {fileID: 6796785576259165971, guid: b2bdbf34fa506ce45b0a10d6a5e3cb37,
+      type: 3}
+    scaleDownWithWorld: 1
+    _prefabLocations:
+    - 35.659355, 139.700618
+    _explicitlyBlockedFeatureIds: []
+  - Name: NationalStadium
+    active: 1
+    prefab: {fileID: 6796785576259165971, guid: 998029974b86c604f8a8275d596c1169,
+      type: 3}
+    scaleDownWithWorld: 1
+    _prefabLocations:
+    - 35.67697738833891, 139.71655573570155
+    _explicitlyBlockedFeatureIds: []

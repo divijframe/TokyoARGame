@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1260580391549996}
+  m_IsPrefabParent: 1
+--- !u!1 &1260580391549996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4228127072793412}
+  - component: {fileID: 114357526703366198}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4228127072793412
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260580391549996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 240, y: 427, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114357526703366198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260580391549996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e35635789edea4418eed8303ed9fdb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapMusic_Fantasy: {fileID: 8300000, guid: 24ab5d1aec85ed44f91791cd9f7a437b, type: 3}
+  mapMusic_Spooky: {fileID: 8300000, guid: 56d1694a0a09e494bb78006ca659282f, type: 3}
+  mapMusic_Pirate: {fileID: 8300000, guid: 412096ec137ebb141a1d87c536fbef2c, type: 3}
+  rescueMusic: {fileID: 8300000, guid: 6114c934fd88ef64e88029cc569c3e52, type: 3}
+  raidMusic: {fileID: 8300000, guid: b8eeb7f186b5fbf41ab8256f43541d85, type: 3}
+  sfx_CharacterSpawnIn: {fileID: 8300000, guid: d05f14acef1545b42bfe1bfae776d602,
+    type: 3}
+  sfx_CharacterRescue: {fileID: 8300000, guid: 1f431842c19a448458c3b748ba818cb8, type: 3}
+  sfx_CharacterRunaway: {fileID: 8300000, guid: b55afc883d15d12458bc3f1709b2a160,
+    type: 3}
+  sfx_RaidComplete: {fileID: 8300000, guid: 4ba0d1a1fe0aea34f9fe17288ebe0989, type: 3}
+  sfx_RaidCompletePlus: {fileID: 8300000, guid: 8790c46cb56c8ed4bb5d521eb6b7a485,
+    type: 3}
+  sfx_TracingFail: {fileID: 8300000, guid: cda8256bd0b922c4bb06048bd7caebc3, type: 3}
+  sfx_TracingSuccess: {fileID: 8300000, guid: 7d74693b3db85874f8fa8d6ea3112327, type: 3}
+  sfx_RaidTracingFail: {fileID: 8300000, guid: cda8256bd0b922c4bb06048bd7caebc3, type: 3}
+  sfx_RaidTracingSuccess: {fileID: 8300000, guid: de4ba17e9bf71ab4ea055ce9489fac26,
+    type: 3}
+  UI_BackButton_01: {fileID: 8300000, guid: 1c2057da1908e7d44ac2e8353591c00f, type: 3}
+  UI_BackButton_02: {fileID: 8300000, guid: dd31629ac3e4198418e0d40a01a860c8, type: 3}
+  UI_BackButton_03: {fileID: 8300000, guid: 64633f29d5f62a94a802fc45a8caebf0, type: 3}
+  UI_BackButton_04: {fileID: 8300000, guid: 587a4857dc0edbd41a863736e52c0f8e, type: 3}
+  UI_ButtonDown_01: {fileID: 8300000, guid: d2d12562b2d64914fb0496fea94da605, type: 3}
+  UI_ButtonDown_02: {fileID: 8300000, guid: 92a366c136a56a449bc1c1127fa9e3be, type: 3}
+  UI_ButtonDown_03: {fileID: 8300000, guid: c3f52bbec968b8449ad1a66a18490320, type: 3}
+  UI_ButtonDown_04: {fileID: 8300000, guid: 4908fe52b87ea27438b2ee9d142eebbb, type: 3}
+  UI_ButtonUp_01: {fileID: 8300000, guid: 9737e74b82ca4ac468cfb84fee162745, type: 3}
+  UI_ButtonUp_02: {fileID: 8300000, guid: 28a49b3ff9b5d924183f494739b82f50, type: 3}
+  UI_ButtonUp_03: {fileID: 8300000, guid: af5263bdc28b2984ba3877586ca32053, type: 3}
+  UI_ButtonUp_04: {fileID: 8300000, guid: 9c1d83e067b1af649a1d63f7eb23bfff, type: 3}
+  crystal_select_01: {fileID: 8300000, guid: e24a7f0691bfb2447ac4609f9d102090, type: 3}
+  crystal_select_02: {fileID: 8300000, guid: 6b68a707c91e0cb4686aab9b5ca13e7e, type: 3}
+  crystal_select_03: {fileID: 8300000, guid: 65029fe2f91a2c443a443ee1321b2fed, type: 3}
+  raid_crystal_select_01: {fileID: 8300000, guid: 7912ec6f0771aa645823fa6e6d1d886a,
+    type: 3}
+  raid_crystal_select_02: {fileID: 8300000, guid: bd335f5cb1f400241a0ce4781d4f707c,
+    type: 3}
+  raid_crystal_select_03: {fileID: 8300000, guid: 1449a3547d2b7b741b16614d94c45623,
+    type: 3}
+  pickup_gemstone: {fileID: 8300000, guid: cf9c7086b92129e4694a9f103ca71a3f, type: 3}
+  trace_tones:
+  - {fileID: 8300000, guid: 4567d4658856ba3479b36388bdcc37f7, type: 3}
+  - {fileID: 8300000, guid: 267ec2783d4d4ef439ab75f111b22e83, type: 3}
+  - {fileID: 8300000, guid: 4555bbf26effadb44b1d292b82bb5937, type: 3}
+  - {fileID: 8300000, guid: f8eec8983e3d4d148990a3a3e5a66cf2, type: 3}
+  - {fileID: 8300000, guid: 07ea91f351608b140a008106633f15e4, type: 3}
+  - {fileID: 8300000, guid: 942dfb003372bbd4da3978dacd5fbc1e, type: 3}
+  - {fileID: 8300000, guid: bcfbf84298f74c14c93488cd329b3c7b, type: 3}
+  - {fileID: 8300000, guid: 8932e4f735e5598429282f8f10ce0c10, type: 3}
+  - {fileID: 8300000, guid: 09fdced6ed4a1ad4d9571982e22f46d0, type: 3}
+  - {fileID: 8300000, guid: d9ce56dec7982e7478f4ae5d4d95596a, type: 3}
+  - {fileID: 8300000, guid: 0293a843235155d45bcd29286a3f6339, type: 3}
+  - {fileID: 8300000, guid: 47e0c722858fc964a86dd8fc441c545e, type: 3}
+  - {fileID: 8300000, guid: 895c5276eea8cb14baa14b143707db22, type: 3}
+  raid_trace_tones:
+  - {fileID: 8300000, guid: 23fa4af2f10ce0945bafa933020eb3e9, type: 3}
+  - {fileID: 8300000, guid: 81846975993054541a1966079e4bf851, type: 3}
+  - {fileID: 8300000, guid: 940d7b14465ba284b8af5cdcce5d7404, type: 3}
+  - {fileID: 8300000, guid: 3b6052034c6544f4b8125dd9399f7126, type: 3}
+  - {fileID: 8300000, guid: a547ed0409aa45040829185b104b098e, type: 3}
+  - {fileID: 8300000, guid: 128b8405526141343af31730ff71b88a, type: 3}
+  - {fileID: 8300000, guid: ea9cc026107c0eb4eaa303b02c563b40, type: 3}
+  - {fileID: 8300000, guid: 84c7ca473bf48d848b96eccd13def892, type: 3}
+  - {fileID: 8300000, guid: 841dec3615f79bb47bfe22a93cccd556, type: 3}
+  - {fileID: 8300000, guid: a1213410ba3669c4082f1a51dfb75405, type: 3}
+  - {fileID: 8300000, guid: 35db0ac58d02535418558ceefc175528, type: 3}
+  - {fileID: 8300000, guid: ae2a21dedc2a9174c90a9df3c8963683, type: 3}
+  - {fileID: 8300000, guid: e9b7029babc1f064a89db0ccc49586ae, type: 3}
+  trace_tone_miss: {fileID: 8300000, guid: d03dea5979557b148972e1946bcd8f16, type: 3}
+  collection_zip_tones:
+  - {fileID: 8300000, guid: 3f8f1053ad8c8f14f91dc98609ee84dc, type: 3}
+  - {fileID: 8300000, guid: 4c1de9d80086d684eb5e67bcf195f72d, type: 3}
+  - {fileID: 8300000, guid: 1f6c815153b5d4c4d8e3b7a1e17e3129, type: 3}
+  - {fileID: 8300000, guid: 7b90bfcbfdaebe2459e31b797f500d68, type: 3}
+  - {fileID: 8300000, guid: aed0c3413efbe2042be79398b9bb8829, type: 3}
+  - {fileID: 8300000, guid: ed6d161bc69706e44a39d0feec199eb0, type: 3}
+  - {fileID: 8300000, guid: f46fdc50d4fc4cf4692c7b338526bac9, type: 3}
+  collection_hit_tones:
+  - {fileID: 8300000, guid: c52564de2cba04c43b176175cc8b6c37, type: 3}
+  - {fileID: 8300000, guid: fb5edd92100c4914ba9fe738b76d3332, type: 3}
+  - {fileID: 8300000, guid: a9212c78d6c305549a3c7a1c301d5b87, type: 3}
+  - {fileID: 8300000, guid: 23ca7be31e79e34499037a44c29427bf, type: 3}
+  - {fileID: 8300000, guid: be5cc01ea1b9bdc4fbb5ac373e67021c, type: 3}
+  - {fileID: 8300000, guid: 981602e0afa35a342ab8b001997f5e6a, type: 3}
+  - {fileID: 8300000, guid: e03d97b7df3993345a9cba3df3a7eef2, type: 3}
+  - {fileID: 8300000, guid: 9d4cfdc4d78f40b4baf5e0d5aa55e92b, type: 3}
+  - {fileID: 8300000, guid: 888e9eb66ae1e1b41b401d3271de0f26, type: 3}
+  - {fileID: 8300000, guid: 818e336b25008554bb6b215d488a866e, type: 3}
+  - {fileID: 8300000, guid: 334c013152fcffc42afa53ee03f4b2d2, type: 3}
+  - {fileID: 8300000, guid: ecc2051466e8f3642a189dd400412209, type: 3}
+  - {fileID: 8300000, guid: 8f131b95396942d4099fb7659a8116a9, type: 3}
+  wand_charge_sfx: {fileID: 8300000, guid: f41bcecdbfdea9b44852d6cfafa26a6e, type: 3}
+  wand_discharge_sfx: {fileID: 8300000, guid: 9a4b564bb8a4acc40bce9a2de6be7ad5, type: 3}

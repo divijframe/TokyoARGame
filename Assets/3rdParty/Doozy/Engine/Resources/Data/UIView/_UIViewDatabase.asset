@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889794c411054f7ca8e6fbdc6728c846, type: 3}
+  m_Name: _UIViewDatabase
+  m_EditorClassIdentifier: 
+  DatabaseType: 2
+  CategoryNames:
+  - Custom
+  - ARGame
+  - Community
+  - Example
+  - Friends
+  - General
+  - IntroCategory
+  - MapUi
+  - Player
+  - POIs
+  Categories:
+  - {fileID: 11400000, guid: 42e64fb80d70a6c46b4e0b4c152283c6, type: 2}
+  - {fileID: 11400000, guid: ab00a19da291656449c6a9c5ab45fe78, type: 2}
+  - {fileID: 11400000, guid: b01e98f4801f7124ba39e1dac4debf90, type: 2}
+  - {fileID: 11400000, guid: 0888085c17db6b94294cd1e21524b4b6, type: 2}
+  - {fileID: 11400000, guid: a6b82e7a33468da4983527f42d7d6254, type: 2}
+  - {fileID: 11400000, guid: 99ba80a46f7a5fa4f99d5fc3ff517b03, type: 2}
+  - {fileID: 11400000, guid: eadf54ddf9b2de34fae2bf37bfbe6c25, type: 2}
+  - {fileID: 11400000, guid: 0d719a1b0cbaa6249b8e298dfbf820de, type: 2}
+  - {fileID: 11400000, guid: 8d8e2d2bcc4c830468d061ebc3857cbd, type: 2}

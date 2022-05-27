@@ -1,0 +1,104 @@
+// BRB modified Unity built-in shader source. Copyright (c) 2016 Unity Technologies. MIT license (see license.txt)
+
+Shader "BRB/Particles/Unlit/Additive" {
+	Properties {
+		_TintColor("Tint Color", Color) = (0.5,0.5,0.5,0.5)
+		_MainTex ("Particle Texture", 2D) = "white" {}
+		_InvFade ("Soft Particles Factor", Range(0.01,3.0)) = 1.0
+		[Toggle(NEVER_FOG)] _Fog("Never Fog", Int) = 0
+	}
+
+	Category {
+		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" "PreviewType"="Plane" }
+		Blend SrcAlpha One
+		ColorMask RGB
+		Cull Off Lighting Off ZWrite Off
+
+		SubShader {
+			Pass {
+
+				CGPROGRAM
+#ifndef SHADER_API_MOBILE
+				#define SHADER_API_MOBILE// workaround to force fog to render on PC the same as it does on mobile device
+#endif
+				#pragma vertex vert
+				#pragma fragment frag
+				#pragma target 2.0
+				#pragma multi_compile_particles
+				#pragma shader_feature __ NEVER_FOG
+				#pragma multi_compile __ FOG_BRB_HEIGHT FOG_BRB_COMPLEX
+				#define FOG_CUSTOM ( defined(FOG_BRB_HEIGHT) || defined(FOG_BRB_COMPLEX) )
+				#pragma multi_compile_fog
+				#define USING_FOG (defined(FOG_LINEAR) || defined(FOG_EXP) || defined(FOG_EXP2))
+				#include "UnityCG.cginc"
+				#include "Assets/Shaders/CustomFog.cginc"
+
+				sampler2D _MainTex;
+
+				struct appdata_t {
+					float4 vertex : POSITION;
+					fixed4 color : COLOR;
+					float2 texcoord : TEXCOORD0;
+					UNITY_VERTEX_INPUT_INSTANCE_ID
+				};
+
+				struct v2f {
+					float4 vertex : SV_POSITION;
+					fixed4 color : COLOR;
+					float2 texcoord : TEXCOORD0;
+#ifdef SOFTPARTICLES_ON
+					float4 projPos : TEXCOORD1;
+#endif
+					UNITY_VERTEX_OUTPUT_STEREO
+				};
+
+				float4 _MainTex_ST;
+				fixed4 _TintColor;
+
+				v2f vert (appdata_t v) {
+					v2f o;
+					UNITY_SETUP_INSTANCE_ID(v);
+					UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+					o.vertex = UnityObjectToClipPos(v.vertex);
+#ifdef SOFTPARTICLES_ON
+					o.projPos = ComputeScreenPos (o.vertex);
+					COMPUTE_EYEDEPTH(o.projPos.z);
+#endif
+					o.color = v.color;
+					o.texcoord = TRANSFORM_TEX(v.texcoord,_MainTex);
+#if USING_FOG && !defined(NEVER_FOG)
+					float4 clipPos = o.vertex;
+					clipPos = UNITY_Z_0_FAR_FROM_CLIPSPACE(clipPos);
+					float fogCoord = clipPos.z;
+	#if FOG_CUSTOM
+		#ifdef FOG_BRB_COMPLEX
+					customTransferComplexFog(fogCoord, v.vertex);
+		#else
+					customTransferFog(fogCoord, v.vertex);
+		#endif
+	#endif
+					UNITY_CALC_FOG_FACTOR_RAW(fogCoord); fogCoord = saturate(unityFogFactor);
+					o.color.rgb *= fogCoord;
+#endif
+					return o;
+				}
+
+				UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
+				float _InvFade;
+
+				fixed4 frag (v2f i) : SV_Target	{
+#ifdef SOFTPARTICLES_ON
+					float sceneZ = LinearEyeDepth (SAMPLE_DEPTH_TEXTURE_PROJ(_CameraDepthTexture, UNITY_PROJ_COORD(i.projPos)));
+					float partZ = i.projPos.z;
+					float fade = saturate (_InvFade * (sceneZ-partZ));
+					i.color.a *= fade;
+#endif
+					half4 col = 2.0f * i.color * _TintColor * tex2D(_MainTex, i.texcoord);
+					col.a = saturate(col.a);
+					return col;
+				}
+				ENDCG
+			}
+		}
+	}
+}

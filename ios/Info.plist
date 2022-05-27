@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDuration</key>
+	<false/>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Super Massive World</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.022</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>google</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1049718947288-n5hjoejneu6kcs61rbh8l5ubiqbhai2b</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.brbent.tokyo</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.brbent.tokyo</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>22</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Capture media with camera</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>AR Game Location</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Capture microphone input in videos</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>The app requires access to Photos to save media to it.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The app requires access to Photos to save media to it.</string>
+	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen-iPhone</string>
+	<key>UILaunchStoryboardName~ipad</key>
+	<string>LaunchScreen-iPad</string>
+	<key>UILaunchStoryboardName~iphone</key>
+	<string>LaunchScreen-iPhone</string>
+	<key>UILaunchStoryboardName~ipod</key>
+	<string>LaunchScreen-iPhone</string>
+	<key>UIPrerenderedIcon</key>
+	<false/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+		<string>metal</string>
+		<string>arkit</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UIRequiresPersistentWiFi</key>
+	<false/>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+	</array>
+	<key>UnityCloudProjectID</key>
+	<string></string>
+	<key>UnityCrashSubmissionURL</key>
+	<string></string>
+	<key>Unity_LoadingActivityIndicatorStyle</key>
+	<integer>-1</integer>
+</dict>
+</plist>

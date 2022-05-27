@@ -1,0 +1,355 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void CaptureAndSave::.ctor()
+extern void CaptureAndSave__ctor_m5067D09C40F5B2D0A437B4C96CE3C49C4957F2AD (void);
+// 0x00000002 System.Void CaptureAndSave::SetAlbumPath(System.String)
+extern void CaptureAndSave_SetAlbumPath_mEAFAD870BEC8E0D783527114B4BC16EA8DFEEF48 (void);
+// 0x00000003 System.Void CaptureAndSave::CaptureAndSaveToAlbum(System.Int32,System.Int32,UnityEngine.Camera,ImageType)
+extern void CaptureAndSave_CaptureAndSaveToAlbum_m4AAAB1A44356AA9D32DFB6D6660B6FF96C1BA8B7 (void);
+// 0x00000004 System.Void CaptureAndSave::CaptureAndSaveToAlbum(System.Int32,System.Int32,UnityEngine.Camera,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_CaptureAndSaveToAlbum_m79D67DFDF91769D81F75BBBF341E82CF1C8BD564 (void);
+// 0x00000005 System.Void CaptureAndSave::CaptureAndSaveAtPath(System.Int32,System.Int32,UnityEngine.Camera,System.String,ImageType)
+extern void CaptureAndSave_CaptureAndSaveAtPath_mAF6FE0F3B2EB0DA3903C815E5C7B891B587C3423 (void);
+// 0x00000006 System.Void CaptureAndSave::CaptureAndSaveAtPath(System.Int32,System.Int32,UnityEngine.Camera,System.String,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_CaptureAndSaveAtPath_m74432ACBEDD4CC623186B4AB754E0CA9369C7155 (void);
+// 0x00000007 System.Void CaptureAndSave::CaptureAndSaveAtPath(System.String,ImageType)
+extern void CaptureAndSave_CaptureAndSaveAtPath_m1E4E50EE9F7C14D7FD5B7FA426E8EEF04E408B7F (void);
+// 0x00000008 System.Void CaptureAndSave::CaptureAndSaveAtPath(System.String,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_CaptureAndSaveAtPath_mDBCB716AFED8E45576B08E81BC4A96CCF7FD96D1 (void);
+// 0x00000009 System.Void CaptureAndSave::CaptureAndSaveAtPath(System.Int32,System.Int32,System.Int32,System.Int32,System.String,ImageType)
+extern void CaptureAndSave_CaptureAndSaveAtPath_mC3FC884F37CC6D1D92258CDC575F0D060EC76979 (void);
+// 0x0000000A System.Void CaptureAndSave::CaptureAndSaveAtPath(System.Int32,System.Int32,System.Int32,System.Int32,System.String,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_CaptureAndSaveAtPath_mD1C89F21CB1C44C8F2DE9713B2F6CDFA586D1520 (void);
+// 0x0000000B System.Void CaptureAndSave::SaveTextureAtPath(UnityEngine.Texture2D,System.String,ImageType)
+extern void CaptureAndSave_SaveTextureAtPath_mD84F25ED255C38B53773AF610BAF00C7F224730C (void);
+// 0x0000000C System.Void CaptureAndSave::SaveTextureAtPath(UnityEngine.Texture2D,System.String,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_SaveTextureAtPath_mC10C84D0230895DD92C2BF96E250CA8D056B04E4 (void);
+// 0x0000000D System.Void CaptureAndSave::SaveTextureToGallery(UnityEngine.Texture2D,ImageType)
+extern void CaptureAndSave_SaveTextureToGallery_mEFB7674C42048F67AE9A1AA371E4A534E952F2C6 (void);
+// 0x0000000E System.Void CaptureAndSave::SaveTextureToGallery(UnityEngine.Texture2D,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_SaveTextureToGallery_m211627831D723C03D691D9DA0ACE2B83057CEA94 (void);
+// 0x0000000F System.Void CaptureAndSave::CaptureAndSaveToAlbum(ImageType)
+extern void CaptureAndSave_CaptureAndSaveToAlbum_m5AC6AECBFEBE2F32FE5915D2D736222194E59DCD (void);
+// 0x00000010 System.Void CaptureAndSave::CaptureAndSaveToAlbum(ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_CaptureAndSaveToAlbum_m53D9C8E5AC997E27D21D1B77BB0FAF3B06570DC2 (void);
+// 0x00000011 System.Void CaptureAndSave::CaptureAndSaveToAlbum(System.Int32,System.Int32,System.Int32,System.Int32,ImageType)
+extern void CaptureAndSave_CaptureAndSaveToAlbum_m650AE2D3BF85453DD9AD38538B39DDDA87BAAF80 (void);
+// 0x00000012 System.Void CaptureAndSave::CaptureAndSaveToAlbum(System.Int32,System.Int32,System.Int32,System.Int32,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_CaptureAndSaveToAlbum_m551F6B19A9FAEC923A905383EB62F08F5F61B27E (void);
+// 0x00000013 System.Void CaptureAndSave::SaveTexture(UnityEngine.Texture2D,System.String,ImageType,System.Boolean,System.Boolean,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_SaveTexture_mC28949CBECE5F0624C791E98D49617B2D7EEC6C3 (void);
+// 0x00000014 System.Collections.IEnumerator CaptureAndSave::SaveToAlbum(System.Int32,System.Int32,System.Int32,System.Int32,System.String,ImageType,System.Boolean,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_SaveToAlbum_mA277EB358ACB7A06966D06D5FADE055DD06AD4B9 (void);
+// 0x00000015 System.String CaptureAndSave::GetFileName(ImageType)
+extern void CaptureAndSave_GetFileName_m86A765CCAF56F04E787478C85DE2231DFDB22612 (void);
+// 0x00000016 System.String CaptureAndSave::GetFullPath(System.String,ImageType)
+extern void CaptureAndSave_GetFullPath_m8044177F4CAD2A6B77B5593A52B9F14616B789B7 (void);
+// 0x00000017 UnityEngine.Texture2D CaptureAndSave::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32,ImageType)
+extern void CaptureAndSave_GetPixels_mA824039556E59CFD92DFB5AC832FAD64A576264A (void);
+// 0x00000018 System.Collections.IEnumerator CaptureAndSave::GetScreenPixels(System.Int32,System.Int32,System.Int32,System.Int32,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_GetScreenPixels_m71379C69579D627602D0BC7725DF3085E56C720F (void);
+// 0x00000019 UnityEngine.Texture2D CaptureAndSave::GetScreenShot(System.Int32,System.Int32,UnityEngine.Camera,ImageType)
+extern void CaptureAndSave_GetScreenShot_m7D43AF7A4391F1EA65F6705B2BB2FE3FDC07E2C0 (void);
+// 0x0000001A UnityEngine.Texture2D CaptureAndSave::GetScreenShot(System.Int32,System.Int32,UnityEngine.Camera,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_GetScreenShot_mDF2AD8BCCB26A11865261B6B8960B67E4D387519 (void);
+// 0x0000001B UnityEngine.Texture2D CaptureAndSave::GetScreenShotFromCamera(System.Int32,System.Int32,UnityEngine.Camera,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_GetScreenShotFromCamera_m68C9DBA993BAFC50135598BD4679B0F2B57AC900 (void);
+// 0x0000001C System.Void CaptureAndSave::GetScreenShot(System.Int32,System.Int32,System.Int32,System.Int32,ImageType)
+extern void CaptureAndSave_GetScreenShot_mF470802BD88CBD33728D11041496F757FC8F08E2 (void);
+// 0x0000001D System.Void CaptureAndSave::GetScreenShot(System.Int32,System.Int32,System.Int32,System.Int32,ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_GetScreenShot_m6B3323B029720218A3FC6F73296103C378C73401 (void);
+// 0x0000001E System.Void CaptureAndSave::GetFullScreenShot(ImageType)
+extern void CaptureAndSave_GetFullScreenShot_mEC283B8AB3DE0426981DF5FE3850625C579DDD77 (void);
+// 0x0000001F System.Void CaptureAndSave::GetFullScreenShot(ImageType,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_GetFullScreenShot_mCD3F5B2B05AA7EB05E23B655E3430CFE9F4D88FA (void);
+// 0x00000020 System.Void CaptureAndSave::CopyImageToCameraRoll(System.String)
+extern void CaptureAndSave_CopyImageToCameraRoll_m064BE3AFBFCCE38FA1FACC21A791BCEB134214EA (void);
+// 0x00000021 System.Void CaptureAndSave::CopyVideoToCameraRoll(System.String)
+extern void CaptureAndSave_CopyVideoToCameraRoll_mD548D98131E2E0370DDB4FB1B650E8BE0C2E78E0 (void);
+// 0x00000022 System.Void CaptureAndSave::MoveImageToCameraRoll(System.String)
+extern void CaptureAndSave_MoveImageToCameraRoll_m5AFD09AAF121FE55A86CEAEF7D266AEF9A42009C (void);
+// 0x00000023 System.Void CaptureAndSave::MoveVideoToCameraRoll(System.String)
+extern void CaptureAndSave_MoveVideoToCameraRoll_m7B333FDC278CC062202905C436310B245FD240BC (void);
+// 0x00000024 UnityEngine.Texture2D CaptureAndSave::AddWatermark(UnityEngine.Texture2D,UnityEngine.Texture2D,WatermarkAlignment)
+extern void CaptureAndSave_AddWatermark_m6DE43361C72C40E024F31CC16C20D87C68EC85D8 (void);
+// 0x00000025 UnityEngine.Texture2D CaptureAndSave::AddWatermark(UnityEngine.Texture2D,UnityEngine.Texture2D,System.Int32,System.Int32)
+extern void CaptureAndSave_AddWatermark_m6A1A920D1FF2A31B2672DC21E8E8AD9EDA81FB09 (void);
+// 0x00000026 UnityEngine.Texture2D CaptureAndSave::CombineTexture(UnityEngine.Texture2D,UnityEngine.Texture2D,System.Int32,System.Int32)
+extern void CaptureAndSave_CombineTexture_mEFC797A2CCC70EAC61EBD59FCDE58983E2BD4183 (void);
+// 0x00000027 System.Void CaptureAndSave::AndroidGalleryPath(System.String)
+extern void CaptureAndSave_AndroidGalleryPath_mE596838C2E6D85173C8F3264AF0560286E28C469 (void);
+// 0x00000028 System.Void CaptureAndSave::OnError(System.String)
+extern void CaptureAndSave_OnError_mF1C9CE87E758AE4802F90B465EEE55CCD42B1CA4 (void);
+// 0x00000029 System.Void CaptureAndSave::OnComplete(System.String)
+extern void CaptureAndSave_OnComplete_m606BA9712D34558ECFFD481D1C114D0FDFB93140 (void);
+// 0x0000002A System.Void CaptureAndSave/<SaveToAlbum>c__Iterator0::.ctor()
+extern void U3CSaveToAlbumU3Ec__Iterator0__ctor_m61B320E59017621E0C6F518C42449967CFD87BF0 (void);
+// 0x0000002B System.Object CaptureAndSave/<SaveToAlbum>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern void U3CSaveToAlbumU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_mF1FB6FECA91EB8C52FD84B964364B6BCF39F22A5 (void);
+// 0x0000002C System.Object CaptureAndSave/<SaveToAlbum>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern void U3CSaveToAlbumU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m621AEB7FC36C08F4DD738EA105F1FCF3DEC953D5 (void);
+// 0x0000002D System.Boolean CaptureAndSave/<SaveToAlbum>c__Iterator0::MoveNext()
+extern void U3CSaveToAlbumU3Ec__Iterator0_MoveNext_m7245F9BA5C4860C70CCBBF88C38960794EA2B160 (void);
+// 0x0000002E System.Void CaptureAndSave/<SaveToAlbum>c__Iterator0::Dispose()
+extern void U3CSaveToAlbumU3Ec__Iterator0_Dispose_m1C192BD5EEF340A4E0FF29AB90B84B3BB0A71D13 (void);
+// 0x0000002F System.Void CaptureAndSave/<SaveToAlbum>c__Iterator0::Reset()
+extern void U3CSaveToAlbumU3Ec__Iterator0_Reset_mD7B6C1DC19B38334CE7A9AB03A3C61EA3EA02AF0 (void);
+// 0x00000030 System.Void CaptureAndSave/<GetScreenPixels>c__Iterator1::.ctor()
+extern void U3CGetScreenPixelsU3Ec__Iterator1__ctor_m3DDCCE2D879CE726110B4D27E53A6464029CA697 (void);
+// 0x00000031 System.Object CaptureAndSave/<GetScreenPixels>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern void U3CGetScreenPixelsU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m9F349CB56EF9DEFFE752C74D06A32E4ECB9EB13E (void);
+// 0x00000032 System.Object CaptureAndSave/<GetScreenPixels>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern void U3CGetScreenPixelsU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_mB21304C332667402CAA0B0FFC1C18F53F89E3ED6 (void);
+// 0x00000033 System.Boolean CaptureAndSave/<GetScreenPixels>c__Iterator1::MoveNext()
+extern void U3CGetScreenPixelsU3Ec__Iterator1_MoveNext_m7F4D3094D58B7833E7D24DCDF3A7479D1789F4E7 (void);
+// 0x00000034 System.Void CaptureAndSave/<GetScreenPixels>c__Iterator1::Dispose()
+extern void U3CGetScreenPixelsU3Ec__Iterator1_Dispose_m3498577915E0654846B3446897C07101F9964E89 (void);
+// 0x00000035 System.Void CaptureAndSave/<GetScreenPixels>c__Iterator1::Reset()
+extern void U3CGetScreenPixelsU3Ec__Iterator1_Reset_m5B48FCC6D15ADF82561F1AABE8484DDD6E9096F1 (void);
+// 0x00000036 System.Void CaptureAndSaveEventListener::.ctor()
+extern void CaptureAndSaveEventListener__ctor_m7A811D50B95696B9478912C1F4791863B445DD09 (void);
+// 0x00000037 System.Void CaptureAndSaveEventListener::add_onError(CaptureAndSaveEventListener/OnError)
+extern void CaptureAndSaveEventListener_add_onError_mA21DEAD9677F516935EA3A7E2D336105DE87DED7 (void);
+// 0x00000038 System.Void CaptureAndSaveEventListener::remove_onError(CaptureAndSaveEventListener/OnError)
+extern void CaptureAndSaveEventListener_remove_onError_mBACB6C4327B6B0685CCC4A8A89EEB797B98814FE (void);
+// 0x00000039 System.Void CaptureAndSaveEventListener::add_onSuccess(CaptureAndSaveEventListener/OnSuccess)
+extern void CaptureAndSaveEventListener_add_onSuccess_m206426A6F4B9153A834E76C057ACEE664B034784 (void);
+// 0x0000003A System.Void CaptureAndSaveEventListener::remove_onSuccess(CaptureAndSaveEventListener/OnSuccess)
+extern void CaptureAndSaveEventListener_remove_onSuccess_m02B2110DBCB16B4614DC96B389871C76B3CE97BD (void);
+// 0x0000003B System.Void CaptureAndSaveEventListener::add_onScreenShot(CaptureAndSaveEventListener/OnScreenShot)
+extern void CaptureAndSaveEventListener_add_onScreenShot_mF53FD518EABC1BF3765FF1DC4D80491FE1C588F8 (void);
+// 0x0000003C System.Void CaptureAndSaveEventListener::remove_onScreenShot(CaptureAndSaveEventListener/OnScreenShot)
+extern void CaptureAndSaveEventListener_remove_onScreenShot_mFB98B4CA7BA86A25C6793FFF828FE2B4343A87E3 (void);
+// 0x0000003D System.Void CaptureAndSaveEventListener::AddHandler_onError(CaptureAndSaveEventListener/OnError)
+extern void CaptureAndSaveEventListener_AddHandler_onError_m9A098A2FD2840A757DEB22D50236641A45B2DDE0 (void);
+// 0x0000003E System.Void CaptureAndSaveEventListener::RemoveHandler_onError(CaptureAndSaveEventListener/OnError)
+extern void CaptureAndSaveEventListener_RemoveHandler_onError_m317FDF30CE35A66972EA4D052EA9A2852CB0D0EF (void);
+// 0x0000003F System.Void CaptureAndSaveEventListener::AddHandler_onSuccess(CaptureAndSaveEventListener/OnSuccess)
+extern void CaptureAndSaveEventListener_AddHandler_onSuccess_m729B7E4B5DCF78805F9C94A7E26CF3C70CFD061D (void);
+// 0x00000040 System.Void CaptureAndSaveEventListener::RemoveHandler_onSuccess(CaptureAndSaveEventListener/OnSuccess)
+extern void CaptureAndSaveEventListener_RemoveHandler_onSuccess_mA3062AE3B9F231E6DA056B9BB4EAF6CAC9008DD4 (void);
+// 0x00000041 System.Void CaptureAndSaveEventListener::AddHandler_onScreenShot(CaptureAndSaveEventListener/OnScreenShot)
+extern void CaptureAndSaveEventListener_AddHandler_onScreenShot_m97C5B68AF13A6EF9CB2E209C7F2BDB0BD89C9381 (void);
+// 0x00000042 System.Void CaptureAndSaveEventListener::RemoveHandler_onScreenShot(CaptureAndSaveEventListener/OnScreenShot)
+extern void CaptureAndSaveEventListener_RemoveHandler_onScreenShot_mF09F4CA0A547D31D233FBD0F75CD7D30962FAEA3 (void);
+// 0x00000043 System.Void CaptureAndSaveEventListener/OnError::.ctor(System.Object,System.IntPtr)
+extern void OnError__ctor_mAB2CD976E143F30738B07CC43747DBC10FEF0E35 (void);
+// 0x00000044 System.Void CaptureAndSaveEventListener/OnError::Invoke(System.String)
+extern void OnError_Invoke_m6E3E333565981FC5B3D329D874E452A4BE9C35A6 (void);
+// 0x00000045 System.IAsyncResult CaptureAndSaveEventListener/OnError::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void OnError_BeginInvoke_m5C8BB7CE62DFA5050CBD4AFECABE6DF15005A293 (void);
+// 0x00000046 System.Void CaptureAndSaveEventListener/OnError::EndInvoke(System.IAsyncResult)
+extern void OnError_EndInvoke_m47FD9F9841590BB88DCBA5B1E130D140D0C6B7B7 (void);
+// 0x00000047 System.Void CaptureAndSaveEventListener/OnSuccess::.ctor(System.Object,System.IntPtr)
+extern void OnSuccess__ctor_m0D5760AFE79BC156BE152DAFE8075B66A099D4BE (void);
+// 0x00000048 System.Void CaptureAndSaveEventListener/OnSuccess::Invoke(System.String)
+extern void OnSuccess_Invoke_m0091D277DE80FB52953FA66AFECF7B2A372571FA (void);
+// 0x00000049 System.IAsyncResult CaptureAndSaveEventListener/OnSuccess::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void OnSuccess_BeginInvoke_m890214274EDD8192AFEE31FAC1BB442DF5CAB72C (void);
+// 0x0000004A System.Void CaptureAndSaveEventListener/OnSuccess::EndInvoke(System.IAsyncResult)
+extern void OnSuccess_EndInvoke_m61D0235AA2C58CA42909D637FD9834CA28C0C8FA (void);
+// 0x0000004B System.Void CaptureAndSaveEventListener/OnScreenShot::.ctor(System.Object,System.IntPtr)
+extern void OnScreenShot__ctor_m4E3EAF74E139583C398D6752A90AEF15197EE9EB (void);
+// 0x0000004C System.Void CaptureAndSaveEventListener/OnScreenShot::Invoke(UnityEngine.Texture2D)
+extern void OnScreenShot_Invoke_m0B8805B39A792E4ACF293603D7F5C48682605AD1 (void);
+// 0x0000004D System.IAsyncResult CaptureAndSaveEventListener/OnScreenShot::BeginInvoke(UnityEngine.Texture2D,System.AsyncCallback,System.Object)
+extern void OnScreenShot_BeginInvoke_mC69DFD171D27A4E96CCFD6C0B1FEB891FD58EC40 (void);
+// 0x0000004E System.Void CaptureAndSaveEventListener/OnScreenShot::EndInvoke(System.IAsyncResult)
+extern void OnScreenShot_EndInvoke_mAB10F86EE41378A5B1AEE59696493F03C3217D0C (void);
+static Il2CppMethodPointer s_methodPointers[78] = 
+{
+	CaptureAndSave__ctor_m5067D09C40F5B2D0A437B4C96CE3C49C4957F2AD,
+	CaptureAndSave_SetAlbumPath_mEAFAD870BEC8E0D783527114B4BC16EA8DFEEF48,
+	CaptureAndSave_CaptureAndSaveToAlbum_m4AAAB1A44356AA9D32DFB6D6660B6FF96C1BA8B7,
+	CaptureAndSave_CaptureAndSaveToAlbum_m79D67DFDF91769D81F75BBBF341E82CF1C8BD564,
+	CaptureAndSave_CaptureAndSaveAtPath_mAF6FE0F3B2EB0DA3903C815E5C7B891B587C3423,
+	CaptureAndSave_CaptureAndSaveAtPath_m74432ACBEDD4CC623186B4AB754E0CA9369C7155,
+	CaptureAndSave_CaptureAndSaveAtPath_m1E4E50EE9F7C14D7FD5B7FA426E8EEF04E408B7F,
+	CaptureAndSave_CaptureAndSaveAtPath_mDBCB716AFED8E45576B08E81BC4A96CCF7FD96D1,
+	CaptureAndSave_CaptureAndSaveAtPath_mC3FC884F37CC6D1D92258CDC575F0D060EC76979,
+	CaptureAndSave_CaptureAndSaveAtPath_mD1C89F21CB1C44C8F2DE9713B2F6CDFA586D1520,
+	CaptureAndSave_SaveTextureAtPath_mD84F25ED255C38B53773AF610BAF00C7F224730C,
+	CaptureAndSave_SaveTextureAtPath_mC10C84D0230895DD92C2BF96E250CA8D056B04E4,
+	CaptureAndSave_SaveTextureToGallery_mEFB7674C42048F67AE9A1AA371E4A534E952F2C6,
+	CaptureAndSave_SaveTextureToGallery_m211627831D723C03D691D9DA0ACE2B83057CEA94,
+	CaptureAndSave_CaptureAndSaveToAlbum_m5AC6AECBFEBE2F32FE5915D2D736222194E59DCD,
+	CaptureAndSave_CaptureAndSaveToAlbum_m53D9C8E5AC997E27D21D1B77BB0FAF3B06570DC2,
+	CaptureAndSave_CaptureAndSaveToAlbum_m650AE2D3BF85453DD9AD38538B39DDDA87BAAF80,
+	CaptureAndSave_CaptureAndSaveToAlbum_m551F6B19A9FAEC923A905383EB62F08F5F61B27E,
+	CaptureAndSave_SaveTexture_mC28949CBECE5F0624C791E98D49617B2D7EEC6C3,
+	CaptureAndSave_SaveToAlbum_mA277EB358ACB7A06966D06D5FADE055DD06AD4B9,
+	CaptureAndSave_GetFileName_m86A765CCAF56F04E787478C85DE2231DFDB22612,
+	CaptureAndSave_GetFullPath_m8044177F4CAD2A6B77B5593A52B9F14616B789B7,
+	CaptureAndSave_GetPixels_mA824039556E59CFD92DFB5AC832FAD64A576264A,
+	CaptureAndSave_GetScreenPixels_m71379C69579D627602D0BC7725DF3085E56C720F,
+	CaptureAndSave_GetScreenShot_m7D43AF7A4391F1EA65F6705B2BB2FE3FDC07E2C0,
+	CaptureAndSave_GetScreenShot_mDF2AD8BCCB26A11865261B6B8960B67E4D387519,
+	CaptureAndSave_GetScreenShotFromCamera_m68C9DBA993BAFC50135598BD4679B0F2B57AC900,
+	CaptureAndSave_GetScreenShot_mF470802BD88CBD33728D11041496F757FC8F08E2,
+	CaptureAndSave_GetScreenShot_m6B3323B029720218A3FC6F73296103C378C73401,
+	CaptureAndSave_GetFullScreenShot_mEC283B8AB3DE0426981DF5FE3850625C579DDD77,
+	CaptureAndSave_GetFullScreenShot_mCD3F5B2B05AA7EB05E23B655E3430CFE9F4D88FA,
+	CaptureAndSave_CopyImageToCameraRoll_m064BE3AFBFCCE38FA1FACC21A791BCEB134214EA,
+	CaptureAndSave_CopyVideoToCameraRoll_mD548D98131E2E0370DDB4FB1B650E8BE0C2E78E0,
+	CaptureAndSave_MoveImageToCameraRoll_m5AFD09AAF121FE55A86CEAEF7D266AEF9A42009C,
+	CaptureAndSave_MoveVideoToCameraRoll_m7B333FDC278CC062202905C436310B245FD240BC,
+	CaptureAndSave_AddWatermark_m6DE43361C72C40E024F31CC16C20D87C68EC85D8,
+	CaptureAndSave_AddWatermark_m6A1A920D1FF2A31B2672DC21E8E8AD9EDA81FB09,
+	CaptureAndSave_CombineTexture_mEFC797A2CCC70EAC61EBD59FCDE58983E2BD4183,
+	CaptureAndSave_AndroidGalleryPath_mE596838C2E6D85173C8F3264AF0560286E28C469,
+	CaptureAndSave_OnError_mF1C9CE87E758AE4802F90B465EEE55CCD42B1CA4,
+	CaptureAndSave_OnComplete_m606BA9712D34558ECFFD481D1C114D0FDFB93140,
+	U3CSaveToAlbumU3Ec__Iterator0__ctor_m61B320E59017621E0C6F518C42449967CFD87BF0,
+	U3CSaveToAlbumU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_mF1FB6FECA91EB8C52FD84B964364B6BCF39F22A5,
+	U3CSaveToAlbumU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m621AEB7FC36C08F4DD738EA105F1FCF3DEC953D5,
+	U3CSaveToAlbumU3Ec__Iterator0_MoveNext_m7245F9BA5C4860C70CCBBF88C38960794EA2B160,
+	U3CSaveToAlbumU3Ec__Iterator0_Dispose_m1C192BD5EEF340A4E0FF29AB90B84B3BB0A71D13,
+	U3CSaveToAlbumU3Ec__Iterator0_Reset_mD7B6C1DC19B38334CE7A9AB03A3C61EA3EA02AF0,
+	U3CGetScreenPixelsU3Ec__Iterator1__ctor_m3DDCCE2D879CE726110B4D27E53A6464029CA697,
+	U3CGetScreenPixelsU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m9F349CB56EF9DEFFE752C74D06A32E4ECB9EB13E,
+	U3CGetScreenPixelsU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_mB21304C332667402CAA0B0FFC1C18F53F89E3ED6,
+	U3CGetScreenPixelsU3Ec__Iterator1_MoveNext_m7F4D3094D58B7833E7D24DCDF3A7479D1789F4E7,
+	U3CGetScreenPixelsU3Ec__Iterator1_Dispose_m3498577915E0654846B3446897C07101F9964E89,
+	U3CGetScreenPixelsU3Ec__Iterator1_Reset_m5B48FCC6D15ADF82561F1AABE8484DDD6E9096F1,
+	CaptureAndSaveEventListener__ctor_m7A811D50B95696B9478912C1F4791863B445DD09,
+	CaptureAndSaveEventListener_add_onError_mA21DEAD9677F516935EA3A7E2D336105DE87DED7,
+	CaptureAndSaveEventListener_remove_onError_mBACB6C4327B6B0685CCC4A8A89EEB797B98814FE,
+	CaptureAndSaveEventListener_add_onSuccess_m206426A6F4B9153A834E76C057ACEE664B034784,
+	CaptureAndSaveEventListener_remove_onSuccess_m02B2110DBCB16B4614DC96B389871C76B3CE97BD,
+	CaptureAndSaveEventListener_add_onScreenShot_mF53FD518EABC1BF3765FF1DC4D80491FE1C588F8,
+	CaptureAndSaveEventListener_remove_onScreenShot_mFB98B4CA7BA86A25C6793FFF828FE2B4343A87E3,
+	CaptureAndSaveEventListener_AddHandler_onError_m9A098A2FD2840A757DEB22D50236641A45B2DDE0,
+	CaptureAndSaveEventListener_RemoveHandler_onError_m317FDF30CE35A66972EA4D052EA9A2852CB0D0EF,
+	CaptureAndSaveEventListener_AddHandler_onSuccess_m729B7E4B5DCF78805F9C94A7E26CF3C70CFD061D,
+	CaptureAndSaveEventListener_RemoveHandler_onSuccess_mA3062AE3B9F231E6DA056B9BB4EAF6CAC9008DD4,
+	CaptureAndSaveEventListener_AddHandler_onScreenShot_m97C5B68AF13A6EF9CB2E209C7F2BDB0BD89C9381,
+	CaptureAndSaveEventListener_RemoveHandler_onScreenShot_mF09F4CA0A547D31D233FBD0F75CD7D30962FAEA3,
+	OnError__ctor_mAB2CD976E143F30738B07CC43747DBC10FEF0E35,
+	OnError_Invoke_m6E3E333565981FC5B3D329D874E452A4BE9C35A6,
+	OnError_BeginInvoke_m5C8BB7CE62DFA5050CBD4AFECABE6DF15005A293,
+	OnError_EndInvoke_m47FD9F9841590BB88DCBA5B1E130D140D0C6B7B7,
+	OnSuccess__ctor_m0D5760AFE79BC156BE152DAFE8075B66A099D4BE,
+	OnSuccess_Invoke_m0091D277DE80FB52953FA66AFECF7B2A372571FA,
+	OnSuccess_BeginInvoke_m890214274EDD8192AFEE31FAC1BB442DF5CAB72C,
+	OnSuccess_EndInvoke_m61D0235AA2C58CA42909D637FD9834CA28C0C8FA,
+	OnScreenShot__ctor_m4E3EAF74E139583C398D6752A90AEF15197EE9EB,
+	OnScreenShot_Invoke_m0B8805B39A792E4ACF293603D7F5C48682605AD1,
+	OnScreenShot_BeginInvoke_mC69DFD171D27A4E96CCFD6C0B1FEB891FD58EC40,
+	OnScreenShot_EndInvoke_mAB10F86EE41378A5B1AEE59696493F03C3217D0C,
+};
+static const int32_t s_InvokerIndices[78] = 
+{
+	5768,
+	4745,
+	985,
+	279,
+	444,
+	170,
+	2640,
+	1022,
+	275,
+	109,
+	1588,
+	473,
+	2640,
+	1022,
+	4710,
+	1546,
+	430,
+	166,
+	185,
+	60,
+	3594,
+	1938,
+	360,
+	144,
+	793,
+	222,
+	222,
+	430,
+	166,
+	4710,
+	1546,
+	4745,
+	4745,
+	4745,
+	4745,
+	1288,
+	838,
+	838,
+	4745,
+	4745,
+	4745,
+	5768,
+	5679,
+	5679,
+	5707,
+	5768,
+	5768,
+	5768,
+	5679,
+	5679,
+	5707,
+	5768,
+	5768,
+	5768,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	8487,
+	2642,
+	4745,
+	1289,
+	4745,
+	2642,
+	4745,
+	1289,
+	4745,
+	2642,
+	4745,
+	1289,
+	4745,
+};
+extern const CustomAttributesCacheGenerator g_CaptureAndSaveLib_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_CaptureAndSaveLib_CodeGenModule;
+const Il2CppCodeGenModule g_CaptureAndSaveLib_CodeGenModule = 
+{
+	"CaptureAndSaveLib.dll",
+	78,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_CaptureAndSaveLib_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
